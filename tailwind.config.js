@@ -23,5 +23,7 @@ module.exports = {
       'cursive' : ['Carter One', 'cursive']
     }
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 }

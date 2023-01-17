@@ -16,8 +16,8 @@ const Listing = (props) => {
                         <H1>{props.title}</H1>
                     </div>
                     <P className="my-4 lg:mb-8 lg:mt-0">{props.description}</P>
-                    <Link to={`/projects/${props.title}`}>
-                        <button className="border-[3px] border-orange-400 text-orange-400 hover:shadow hover:shadow-orange-900 py-2 px-3 rounded hover:bg-orange-400 hover:bg-opacity-10 transition-all self-center lg:self-start max-w-xs w-full">Learn More</button>
+                    <Link className="self-center lg:self-start max-w-xs w-full" to={`/projects/${props.title.toLowerCase().replaceAll(' ','')}`}>
+                        <button className="border-[3px] border-orange-400 text-orange-400 hover:shadow hover:shadow-orange-900 py-2 px-3 rounded hover:bg-orange-400 hover:bg-opacity-10 transition-all w-full">Learn More</button>
                     </Link>
                 </div>
                 <div className=" lg:w-1/2 lg:ml-4 flex items-center justify-center">

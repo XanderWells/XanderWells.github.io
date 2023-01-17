@@ -1,4 +1,7 @@
-const AllProjects = () => {
+
+
+
+const DisplayAllProjects = () => {
     return (
         <div>
             This is where all projects will be listed
@@ -6,4 +9,4 @@ const AllProjects = () => {
     )
 }
 
-export default AllProjects
+export default DisplayAllProjects

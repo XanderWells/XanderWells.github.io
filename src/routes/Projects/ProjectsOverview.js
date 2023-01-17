@@ -1,14 +1,26 @@
-import Listing from "../../components/Listing/Listing"
 import ListingContainer from "../../components/Listing/ListingContainer"
 
+import React from "react"
+import { Suspense } from "react"
+
 const ProjectsOverview = () => {
+
+    const listingsInOverview = ["rocketfins"]
+
+    const Test = listingsInOverview.map((listingName) => {
+        return React.lazy(() => import(`./Content/${listingName}/PreviewListing`))
+    }) 
+
     return (
-        <ListingContainer>
-            <Listing />
-            <Listing />
-            <Listing />
-            <Listing />
-        </ListingContainer>
+        <Suspense fallback={<div>Loading...</div>}>
+            <ListingContainer>
+                {
+                    Test.map((ItemToDisplay, index) => {
+                        return <ItemToDisplay key={index}/>
+                    })
+                }
+            </ListingContainer>
+        </Suspense>
     )
 }
 
