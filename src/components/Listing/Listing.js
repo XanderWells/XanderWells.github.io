@@ -21,7 +21,7 @@ const Listing = (props) => {
                     </Link>
                 </div>
                 <div className=" lg:w-1/2 lg:ml-4 flex items-center justify-center">
-                    <Image />
+                    <Image image={props.image}/>
                 </div>
             </div>
         </div>

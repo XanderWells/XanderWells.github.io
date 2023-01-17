@@ -35,6 +35,10 @@ const DisplaySpecificProject = () => {
                     < Content />
                 </div>
             </Suspense>
+            <Link className="text-orange-400 underline hover:text-orange-500 transition-all 
+            ml-4 mb-4 md:ml-6 md:mb-5 lg:ml-8 lg:mb-7" to="/">
+                <P>← Back To Home</P>
+            </Link>
         </div>
     )
 }
