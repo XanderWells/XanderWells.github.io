@@ -8,7 +8,7 @@ import Loading from "../../components/Loading/Loading"
 const ProjectsOverview = () => {
     // const listingsInOverview = ["rocketfins","softjawmanufacturing","foamcorepaneltesting","compositelayups","miscprojects","mycat"]
 
-    const listingsInOverview = ["rocketfins","softjawmanufacturing","miscprojects","mycat"]
+    const listingsInOverview = ["rocketfins","softjawmanufacturing","compositelayups","miscprojects","mycat"]
 
     const ProjectsToList = listingsInOverview.map((listingName) => {
         return (React.lazy(() => {
