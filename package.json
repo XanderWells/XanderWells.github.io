@@ -1,7 +1,7 @@
 {
   "name": "xanderwellsmewebsite",
   "version": "0.1.0",
-  "homepage": "https://XanderWells.github.io",
+  "homepage": "https://xanderwells.me",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",

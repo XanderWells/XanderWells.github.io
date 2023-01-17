@@ -1,5 +1,8 @@
 import H1 from "../Text/H1"
+import P from "../Text/P"
 import Image from "../Image/Image"
+
+import { Link } from "react-router-dom"
 
 const Listing = (props) => {
     return (
@@ -12,26 +15,15 @@ const Listing = (props) => {
                     <div className="hidden lg:block">
                         <H1>{props.title}</H1>
                     </div>
-                    <p className="my-4 lg:mb-8 lg:mt-0">{props.description}</p>
-                    <button className="border-[3px] border-orange-400 text-orange-400 py-2 px-3 rounded hover:bg-orange-400 hover:bg-opacity-10 transition-all self-center lg:self-start max-w-xs w-full">Learn More</button>
+                    <P className="my-4 lg:mb-8 lg:mt-0">{props.description}</P>
+                    <Link to={`/projects/${props.title}`}>
+                        <button className="border-[3px] border-orange-400 text-orange-400 hover:shadow hover:shadow-orange-900 py-2 px-3 rounded hover:bg-orange-400 hover:bg-opacity-10 transition-all self-center lg:self-start max-w-xs w-full">Learn More</button>
+                    </Link>
                 </div>
                 <div className=" lg:w-1/2 lg:ml-4 flex items-center justify-center">
                     <Image />
                 </div>
             </div>
-            {/* <div className="flex flex-col lg:flex-row-reverse">
-
-                <div className="flex items-center justify-center">
-                    <Image />
-                </div>
-                <div className="flex flex-col lg:flex lg:mr-8">
-                    <div className="hidden lg:block">
-                        <H1>{props.title}</H1>
-                    </div>
-                    <p className="mb-2">{props.description}</p>
-                    <button className="border-[3px] border-orange-400 text-orange-400 py-2 px-3 rounded hover:bg-orange-400 hover:bg-opacity-10 transition-all mt-auto max-w-xs self-center lg:mr-auto w-full">Learn More</button>
-                </div>
-            </div> */}
         </div>
     )
 }
