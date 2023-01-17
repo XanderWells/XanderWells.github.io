@@ -3,13 +3,23 @@ import { Suspense } from "react"
 import React from "react"
 
 import P from "../../components/Text/P"
+import Loading from "../../components/Loading/Loading"
 
 const DisplaySpecificProject = () => {
 
     const { projectName } = useParams()
 
-    const Content = React.lazy(() => import(`./Content/${projectName}/Content`))
+    //const Content = React.lazy(() => import(`./Content/${projectName}/Content`))
     const ContentHeader = React.lazy(() => import(`./Content/${projectName}/Header`))
+
+    const Content = React.lazy(() => {
+        return Promise.all([
+            import(`./Content/${projectName}/Content`),
+            new Promise(resolve => setTimeout(resolve, 500))
+        ])
+            .then(([moduleExports]) => moduleExports);
+    });
+
 
     return (
         <div className="flex flex-col ">
@@ -19,7 +29,7 @@ const DisplaySpecificProject = () => {
                 <P>← Back To Home</P>
             </Link>
 
-            <Suspense fallback={<div>Loading...</div>}>
+            <Suspense fallback={<Loading />}>
                 <ContentHeader />
                 <div className="bg-gray-900 md:rounded lg:rounded-md mb-4 lg:mb-8 p-4 lg:p-8 shadow-lg shadow-gray-900">
                     < Content />
