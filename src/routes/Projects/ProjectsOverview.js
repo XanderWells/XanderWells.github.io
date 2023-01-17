@@ -6,12 +6,9 @@ import { Suspense } from "react"
 import Loading from "../../components/Loading/Loading"
 
 const ProjectsOverview = () => {
-    const listingsInOverview = ["rocketfins","softjawmanufacturing","foamcorepaneltesting","compositelayups","miscprojects","mycat"]
+    // const listingsInOverview = ["rocketfins","softjawmanufacturing","foamcorepaneltesting","compositelayups","miscprojects","mycat"]
 
-    // const ProjectsToList = listingsInOverview.map((listingName) => {
-    //     return React.lazy(() => import(`./Content/${listingName}/PreviewListing`))
-    // }) 
-
+    const listingsInOverview = ["rocketfins","softjawmanufacturing","miscprojects","mycat"]
 
     const ProjectsToList = listingsInOverview.map((listingName) => {
         return (React.lazy(() => {
@@ -23,7 +20,6 @@ const ProjectsOverview = () => {
         })
         )
     }) 
-
     
     return (
         <Suspense fallback={<Loading />}>
