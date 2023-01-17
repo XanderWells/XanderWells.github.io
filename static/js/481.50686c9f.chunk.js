@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkxanderwellsmewebsite=self.webpackChunkxanderwellsmewebsite||[]).push([[481],{481:function(e,n,s){s.r(n);var t=s(184);n.default=function(){return(0,t.jsx)("div",{children:"Rocket Fins"})}}}]);
+//# sourceMappingURL=481.50686c9f.chunk.js.map

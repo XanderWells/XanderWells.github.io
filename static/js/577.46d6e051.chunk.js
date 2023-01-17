@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkxanderwellsmewebsite=self.webpackChunkxanderwellsmewebsite||[]).push([[577],{577:function(e,s,t){t.r(s);var n=t(819),a=t(184);s.default=function(){return(0,a.jsx)(n.Z,{className:"text-center",children:"Template Header"})}}}]);
+//# sourceMappingURL=577.46d6e051.chunk.js.map
