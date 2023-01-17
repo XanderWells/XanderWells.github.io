@@ -34,7 +34,7 @@ const Content = () => {
             <ImageWithCaption image={comp5} caption="We start by 'painting' epoxy on the fiber, which creates a pseudo prepreg at a fraction of the cost."/>
             <ImageWithCaption image={comp6} caption="We then transfer the fiber to the mold."/>
             <ImageWithCaption image={comp7} caption="After tacking down the outermost side, we peel back the release film."/>
-            <ImageWithCaption image={comp8} caption="It is then a slow process of aligning the fiber and getting it to shear to the smaller arc. "/>
+            <ImageWithCaption image={comp8} caption="It is then a slow process of aligning the fiber and getting it to shear towards the smaller arc. "/>
             <ImageWithCaption image={comp11} caption="After awhile though, we reach a point where the fiber matches the desired surface very closely and can then be pressed into the mold."/>
             <ImageWithCaption image={comp12} caption="The final step is to apply a vacuum to press the fiber tightly against the mold and squeeze out any air bubbles. This process involves release film to prevent the vacuum bag from sticking to the epoxy, as well as an in-between layer of breather film, which helps the vacuum permeate from the pump to the entire mold."/>
             <ImageWithCaption image={comp13} caption="A day later and with a buddy on the camera, I can begin the debagging process."/>

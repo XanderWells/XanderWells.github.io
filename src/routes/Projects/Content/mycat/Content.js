@@ -16,7 +16,7 @@ import andres11 from './andres11.jpg'
 const Content = () => {
     return (
         <div>
-            <P className="mb-4 px-2 md:mb-4 lg:mb-8">Andrés is around 9 years old, and we've had him since he was 4. At 15 lbs, it might sound that he's overweight, but actually, he's just...tall... as in, he can reach from the ground all the way to our kitchen counter by standing. But yeah, he's very adorable.</P>
+            <P className="mb-4 px-2 md:mb-4 lg:mb-8">Andrés is 10 and a half years old, and we've had him since he was 4. At 15 lbs, it might sound that he's overweight, but actually, he's just...tall... as in, he can reach from the ground all the way to our kitchen counter by standing. But yeah, he's very adorable.</P>
             
 
             <ImageWithCaption image={andres1} caption="Kitten!"/>

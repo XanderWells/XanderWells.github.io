@@ -26,7 +26,7 @@ import H3 from "../../../../components/Text/H3"
 const Content = () => {
     return (
         <div>
-            <ImageWithCaption image={fins1} caption="Sacrifical plate attached to t-slots. Note this is actually 3 pieces of metal because I couldn't find a single large enough piece."/>
+            <ImageWithCaption image={fins1} caption="Sacrificial plate attached to t-slots. Note this is actually 3 pieces of metal because I couldn't find a single large enough piece."/>
             <ImageWithCaption image={fins2} caption="Fixing the stock to the plate and drilling 3 holes in the center."/>
             <ImageWithCaption image={fins3} caption="This lets me add 3 screws to make the workholding more rigid."/>
             <ImageWithCaption image={fins4} caption="Drilling 0.25in holes..."/>
@@ -41,9 +41,9 @@ const Content = () => {
             <ImageWithCaption image={fins12} caption="Switching the workholding methods in order to access the other edges of the fins."/>
             <ImageWithCaption image={fins13} caption="Final step was to cut the remaining profiles, and then we have 2 fins! Now to repeat this 1.5 more times..."/>
             <ImageWithCaption image={fins14} caption="This is a comparison of my fins vs. the fins used for an older rocket. The edges' quality improved drastically, both in terms of surface finish and sharpness."/>
-            <ImageWithCaption image={fins15} caption="I even went so far as to machine shadow foam on a gantry router in order to create a proper storage for all 5 fins."/>
+            <ImageWithCaption image={fins15} caption="I even went so far as to machine shadow foam on a gantry router in order to create a proper storage spot for all 5 fins."/>
             <HR />
-            <H3 className="text-center">There were many instances the tool being very close to the workpiece. Many of these were unavoidable due to the part geometry and tool length requirements. I made sure to double triple check my measurements, both in CAM and real life, and as such I avoided any crashes. Here are some of my favorite ones below:</H3>
+            <H3 className="text-center">There were many instances of the tool being very close to the workpiece. Many of these were unavoidable due to the part geometry and tool length requirements. I made sure to double triple check my measurements, both in CAM and real life, and as such I avoided any crashes. Here are some of my favorite closeups below:</H3>
             <ImageWithCaption image={fins16} caption=""/>
             <ImageWithCaption image={fins17} caption=""/>
             <ImageWithCaption image={fins18} caption=""/>

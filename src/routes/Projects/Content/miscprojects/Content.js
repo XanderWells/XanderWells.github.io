@@ -42,14 +42,14 @@ const Content = () => {
             <ImageWithCaption image={misc10} caption="Tubing stability mounts - 6061"/>
             <HR />
             <H3 className="text-center">International Manufacturing Trade Show:</H3>
-            <P className="mb-2">I got the opportunity in fall 2022 to represent Purdue at IMTS. I spent most my time at our booth, but I also got the chance to walk around, see cool machines, and meet many people I look up to.</P>
+            <P className="mb-2">I got the opportunity in Fall 2022 to represent Purdue at IMTS. I spent most my time at our booth, but I also got the chance to walk around, see cool machines, and meet many people I look up to.</P>
             <ImageWithCaption image={misc11} caption="This is me showing off our display centerpiece to Abom79. I made it to his social media!"/>
             <ImageWithCaption image={misc12} caption="Me with Titan Gilroy from Titans of CNC."/>
             <ImageWithCaption image={misc13} caption="Me with John Saunders from NYC CNC / Saunders Machine Works."/>
             <ImageWithCaption image={misc14} caption="Ran into Mark Terryberry from HAAS at the hotel lobby!"/>
             <HR />
             <H3 className="text-center">Foamcore Panel Inserts</H3>
-            <P className="mb-2">These inserts are placed in foamcore composite panels used my solar racing team car chassis. You can then put screws through the insert without having to worry about ruining the panels. The purpose of this testing is to explore viable solutions for our upcoming car.</P>
+            <P className="mb-2">These inserts are placed in foamcore composite panels used by my solar racing team car chassis. You can then put screws through the insert without having to worry about ruining the panels. The purpose of this testing is to explore viable solutions for our upcoming car.</P>
             <ImageWithCaption image={misc16} caption="Solution 1 was more elaborate and contained 2 screw holes."/>
             <ImageWithCaption image={misc17} caption="The sides had slots which allowed for epoxy to settle in and fix the outer side walls of the insert to the foamcore itself."/>
             <ImageWithCaption image={misc15} caption={`I was able to machine only 0.004" away from the vice because I probed my Z off the vice top surface. A bit nerve wracking, but it worked in the end.`}/>
