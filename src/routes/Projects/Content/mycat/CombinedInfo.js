@@ -20,7 +20,7 @@ import ThumbnailTemplate from "../../../../components/Thumbnail/ThumbnailTemplat
 import H1 from "../../../../components/Text/H1"
 const title = "My Cat"
 export const Thumbnail = (props) => {
-    const description = "My family has an adorable cat named Andrés. I feel the need to spread his cuteness everywhere."
+    const description = "My family has an adorable cat named Andrés. I feel the need to spread his cuteness everywhere"
  
     return (
         <ThumbnailTemplate title={title} description={description} image={andres1} link={props.link}/>
@@ -34,7 +34,7 @@ export const Content = () => {
     return (
         <div>
             <H1 className="text-center">{title}</H1>
-            <P className="mb-4 px-2 md:mb-4 lg:mb-8">Andrés is 10 and a half years old, and we've had him since he was 4. At 15 lbs, it might sound that he's overweight, but actually, he's just...tall... as in, he can reach from the ground all the way to our kitchen counter by standing. But yeah, he's very adorable.</P>
+            <P className="mb-4 px-2 md:mb-4 lg:mb-8">Andrés is 10 and a half years old, and we've had him since he was 4. At 15 lbs, it might sound that he's overweight, but actually, he's just...tall... as in, he can reach from the ground all the way to our kitchen counter by standing. But yeah, he's very adorable</P>
             
 
             <ImageWithCaption image={andres1} number={value()} caption="Kitten!"/>

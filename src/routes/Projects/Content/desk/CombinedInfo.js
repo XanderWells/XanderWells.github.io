@@ -27,7 +27,7 @@ import ThumbnailTemplate from "../../../../components/Thumbnail/ThumbnailTemplat
 import H1 from "../../../../components/Text/H1"
 const title = "Fancy L-Desk"
 export const Thumbnail = (props) => {
-    const description = "I designed and built a fancy desk completely from scratch, starting with non-dimensional lumber (white oak and walnut) and ended up with something I'm really proud of. This features white oak surfaces with a 2x2 walnut structure and walnut inlay patterns. The structure uses mortise and tenon joints exclusively - no nails or screws."
+    const description = "I designed and built a fancy desk completely from scratch, starting with non-dimensional lumber (white oak and walnut) and ended up with something I'm really proud of. This features white oak surfaces with a 2x2 walnut structure and walnut inlay patterns. The structure uses mortise and tenon joints exclusively - no nails or screws"
  
     return (
         <ThumbnailTemplate title={title} description={description} image={desk17} link={props.link}/>
