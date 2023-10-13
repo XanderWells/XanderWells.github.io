@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkxanderwellsmewebsite=self.webpackChunkxanderwellsmewebsite||[]).push([[630],{630:function(e,n,s){s.r(n);var t=s(4819),a=s(184);n.default=function(){return(0,a.jsx)(t.Z,{className:"text-center",children:"Foamcore Panel Testing"})}}}]);
-//# sourceMappingURL=630.1fb80ddd.chunk.js.map

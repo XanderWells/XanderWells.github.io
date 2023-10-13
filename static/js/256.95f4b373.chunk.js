@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkxanderwellsmewebsite=self.webpackChunkxanderwellsmewebsite||[]).push([[256],{7256:function(e,n,t){t.r(n);var s=t(4819),a=t(184);n.default=function(){return(0,a.jsx)(s.Z,{className:"text-center",children:"Softjaw Manufacturing"})}}}]);
-//# sourceMappingURL=256.95f4b373.chunk.js.map

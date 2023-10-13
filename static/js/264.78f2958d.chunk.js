@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkxanderwellsmewebsite=self.webpackChunkxanderwellsmewebsite||[]).push([[264],{8264:function(e,s,t){t.r(s);var n=t(4819),a=t(184);s.default=function(){return(0,a.jsx)(n.Z,{className:"text-center",children:"My Cat"})}}}]);
-//# sourceMappingURL=264.78f2958d.chunk.js.map
