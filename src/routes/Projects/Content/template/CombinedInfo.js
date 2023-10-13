@@ -1,6 +1,6 @@
 import ImageWithCaption from "../../../../components/Image/ImageWithCaption"
 import P from "../../../../components/Text/P"
-
+import HR from "../../../../components/HR/HR"
 // import placeholder1 from './placeholder1.jpg'
 
 import { useContext } from "react"

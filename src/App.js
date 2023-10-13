@@ -14,16 +14,16 @@ import Section from "./classes/Section";
 import { useState } from 'react';
 
 const projectsSection = new Section("Project Samples", "projects", "", ["apollo", "lux","rocketfins", "softjawmanufacturing", "compositelayups", "desk","miscprojects", "website"], ["apollo","lux","rocketfins", "softjawmanufacturing", "compositelayups", "desk", "miscprojects", "website"])
-projectsSection.urlsInOverview = ["apollo","rocketfins", "softjawmanufacturing", "compositelayups", "desk", "miscprojects", "website"]
+// projectsSection.urlsInOverview = ["apollo","rocketfins", "softjawmanufacturing", "compositelayups", "desk", "miscprojects", "website"]
 
 projectsSection.overviewDescription = "My favorite projects"
 // section1.seeAllDescription = "See more projects →"
 projectsSection.seeAllDescription = ""
 
 const professionalSection = new Section("Professional Experience", "professional", "", ["spacex", "cmsc", "pw", "bidc"], ["spacex", "cmsc", "pw",  "bidc"])
-professionalSection.urlsInOverview = ["spacex"]
+professionalSection.urlsInOverview = ["spacex", "cmsc"]
 // professionalSection.overviewDescription = "Where I've worked"
-professionalSection.overviewDescription = "My latest internship"
+professionalSection.overviewDescription = "My latest professional experiences"
 // section2.seeAllDescription = "See all jobs →"
 professionalSection.seeAllDescription = ""
 
