@@ -1,9 +1,1 @@
-const Content = () => {
-    return (
-        <div>
-            This is a template
-        </div>
-    )
-}
-
-export default Content
+export {Content as default} from "./CombinedInfo.js"
