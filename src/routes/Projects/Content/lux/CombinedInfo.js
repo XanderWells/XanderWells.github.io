@@ -14,6 +14,14 @@ import lux10 from './lux10.png'
 import lux11 from './lux11.png'
 import lux12 from './lux12.png'
 import lux13 from './lux13.png'
+import lux14 from './lux14.png'
+import lux15 from './lux15.png'
+import lux16 from './lux16.png'
+import lux17 from './lux17.png'
+import lux18 from './lux18.png'
+import lux19 from './lux19.png'
+import lux20 from './lux20.png'
+
 
 import { useContext } from "react"
 import NumberContext from "../../../../components/Contexts/NumberContext"
@@ -58,8 +66,19 @@ export const Content = () => {
             <ImageWithCaption image={lux11} number={value()} caption="Detailed cross-section of the flange between the canopy and topshell. Note that surfaces instead of solid models are used to due limitations of CAD software"/>
             <ImageWithCaption image={lux12} number={value()} caption="Same cross-section, but now at the front of the model, where the windshield is"/>
             {/* <H5 className="text-center"></H5> */}
+            <HR></HR> 
+            <H3 className="text-center">Surface Modeling in 3DX/CATIA V5 for Top Shell Mold</H3>
             
-            
+            <ImageWithCaption image={lux15} number={value()} caption=""/>
+            {/* <ImageWithCaption image={lux14} number={value()} caption=""/> */}
+            <ImageWithCaption image={lux16} number={value()} caption=""/>
+
+            <HR></HR> 
+            <H3 className="text-center">Hinge Design (head-on cross section)</H3>
+            <ImageWithCaption image={lux17} number={value()} caption="Closed State"/>
+            <ImageWithCaption image={lux18} number={value()} caption="Opening State - must avoid rollcage"/>
+            <ImageWithCaption image={lux19} number={value()} caption="Opened State - topshell must be 90deg wtr the vertical and as high as possible"/>
+            <ImageWithCaption image={lux20} number={value()} caption="This sketch solves for the position of the joints automatically, using the constraints above"/>
         </div>
     )
 }
