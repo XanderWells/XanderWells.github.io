@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.51501097.css",
-    "main.js": "/static/js/main.d41b5630.js",
+    "main.js": "/static/js/main.fd04f7b9.js",
     "static/js/747.f01a9053.chunk.js": "/static/js/747.f01a9053.chunk.js",
     "static/js/889.61284126.chunk.js": "/static/js/889.61284126.chunk.js",
     "static/js/530.98ea0250.chunk.js": "/static/js/530.98ea0250.chunk.js",
     "static/js/730.451b92e5.chunk.js": "/static/js/730.451b92e5.chunk.js",
     "static/js/256.8bfb6c54.chunk.js": "/static/js/256.8bfb6c54.chunk.js",
     "static/js/52.c35adf7b.chunk.js": "/static/js/52.c35adf7b.chunk.js",
-    "static/js/614.01539154.chunk.js": "/static/js/614.01539154.chunk.js",
+    "static/js/382.09462711.chunk.js": "/static/js/382.09462711.chunk.js",
     "static/js/166.2921f847.chunk.js": "/static/js/166.2921f847.chunk.js",
     "static/js/425.a7911fdd.chunk.js": "/static/js/425.a7911fdd.chunk.js",
     "static/js/164.f9cc1b8a.chunk.js": "/static/js/164.f9cc1b8a.chunk.js",
@@ -24,7 +24,7 @@
     "static/js/855.f4b056a2.chunk.js": "/static/js/855.f4b056a2.chunk.js",
     "static/js/371.ea69d18e.chunk.js": "/static/js/371.ea69d18e.chunk.js",
     "static/js/199.a0365dd0.chunk.js": "/static/js/199.a0365dd0.chunk.js",
-    "static/js/861.1421aee3.chunk.js": "/static/js/861.1421aee3.chunk.js",
+    "static/js/273.a0521298.chunk.js": "/static/js/273.a0521298.chunk.js",
     "static/js/148.67ae0d1b.chunk.js": "/static/js/148.67ae0d1b.chunk.js",
     "static/js/196.5b4bf453.chunk.js": "/static/js/196.5b4bf453.chunk.js",
     "static/js/899.26d00172.chunk.js": "/static/js/899.26d00172.chunk.js",
@@ -81,7 +81,6 @@
     "static/media/lux7.png": "/static/media/lux7.58b9bf3e93c47ea01f81.png",
     "static/media/desk15.jpg": "/static/media/desk15.02cc442299b98d92459c.jpg",
     "static/media/lux2.png": "/static/media/lux2.92a230712e2bd5f83ce5.png",
-    "static/media/lux14.png": "/static/media/lux14.fc3c4504a4c3e1884fe2.png",
     "static/media/andres3.jpg": "/static/media/andres3.e171ce70c8451b587322.jpg",
     "static/media/desk10.jpg": "/static/media/desk10.b81d32eca13abc310f30.jpg",
     "static/media/lux3.png": "/static/media/lux3.46cb7909b12726fb5d36.png",
@@ -207,14 +206,14 @@
     "static/media/website7.png": "/static/media/website7.90215f9f731cf3f5653a.png",
     "index.html": "/index.html",
     "main.51501097.css.map": "/static/css/main.51501097.css.map",
-    "main.d41b5630.js.map": "/static/js/main.d41b5630.js.map",
+    "main.fd04f7b9.js.map": "/static/js/main.fd04f7b9.js.map",
     "747.f01a9053.chunk.js.map": "/static/js/747.f01a9053.chunk.js.map",
     "889.61284126.chunk.js.map": "/static/js/889.61284126.chunk.js.map",
     "530.98ea0250.chunk.js.map": "/static/js/530.98ea0250.chunk.js.map",
     "730.451b92e5.chunk.js.map": "/static/js/730.451b92e5.chunk.js.map",
     "256.8bfb6c54.chunk.js.map": "/static/js/256.8bfb6c54.chunk.js.map",
     "52.c35adf7b.chunk.js.map": "/static/js/52.c35adf7b.chunk.js.map",
-    "614.01539154.chunk.js.map": "/static/js/614.01539154.chunk.js.map",
+    "382.09462711.chunk.js.map": "/static/js/382.09462711.chunk.js.map",
     "166.2921f847.chunk.js.map": "/static/js/166.2921f847.chunk.js.map",
     "425.a7911fdd.chunk.js.map": "/static/js/425.a7911fdd.chunk.js.map",
     "164.f9cc1b8a.chunk.js.map": "/static/js/164.f9cc1b8a.chunk.js.map",
@@ -230,7 +229,7 @@
     "855.f4b056a2.chunk.js.map": "/static/js/855.f4b056a2.chunk.js.map",
     "371.ea69d18e.chunk.js.map": "/static/js/371.ea69d18e.chunk.js.map",
     "199.a0365dd0.chunk.js.map": "/static/js/199.a0365dd0.chunk.js.map",
-    "861.1421aee3.chunk.js.map": "/static/js/861.1421aee3.chunk.js.map",
+    "273.a0521298.chunk.js.map": "/static/js/273.a0521298.chunk.js.map",
     "148.67ae0d1b.chunk.js.map": "/static/js/148.67ae0d1b.chunk.js.map",
     "196.5b4bf453.chunk.js.map": "/static/js/196.5b4bf453.chunk.js.map",
     "899.26d00172.chunk.js.map": "/static/js/899.26d00172.chunk.js.map",
@@ -243,6 +242,6 @@
   },
   "entrypoints": [
     "static/css/main.51501097.css",
-    "static/js/main.d41b5630.js"
+    "static/js/main.fd04f7b9.js"
   ]
 }
