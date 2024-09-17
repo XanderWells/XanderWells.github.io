@@ -2,21 +2,21 @@ import ImageWithCaption from "../../../../components/Image/ImageWithCaption"
 import P from "../../../../components/Text/P"
 import H5 from "../../../../components/Text/H5"
 import HR from "../../../../components/HR/HR"
-import apollo1 from './apollo1.jpeg'
-import apollo2 from './apollo2.jpg'
-import apollo3 from './apollo3.jpg'
-import apollo4 from './apollo4.jpg'
-import apollo5 from './apollo5.jpg'
-import apollo6 from './apollo6.jpg'
-import apollo7 from './apollo7.jpg'
-import apollo8 from './apollo8.jpg'
-import apollo9 from './apollo9.jpg'
-import apollo10 from './apollo10.jpg'
-import apollo11 from './apollo11.JPG'
-import apollo12 from './apollo12.JPG'
-import apollo13 from './apollo13.jpg'
-import apollo14 from './apollo14.jpg'
-import apollo15 from './apollo15.jpg'
+import apollo1 from './apollo1.webp'
+import apollo2 from './apollo2.webp'
+import apollo3 from './apollo3.webp'
+import apollo4 from './apollo4.webp'
+import apollo5 from './apollo5.webp'
+import apollo6 from './apollo6.webp'
+import apollo7 from './apollo7.webp'
+import apollo8 from './apollo8.webp'
+import apollo9 from './apollo9.webp'
+import apollo10 from './apollo10.webp'
+import apollo11 from './apollo11.webp'
+import apollo12 from './apollo12.webp'
+import apollo13 from './apollo13.webp'
+import apollo14 from './apollo14.webp'
+import apollo15 from './apollo15.webp'
 
 
 import { useContext } from "react"

@@ -1,13 +1,13 @@
 import ImageWithCaption from "../../../../components/Image/ImageWithCaption"
 import P from "../../../../components/Text/P"
 
-import website1 from './website1.png'
-import website2 from './website2.png'
-import website3 from './website3.png'
-import website4 from './website4.png'
-import website5 from './website5.png'
-import website6 from './website6.png'
-import website7 from './website7.png'
+import website1 from './website1.webp'
+import website2 from './website2.webp'
+import website3 from './website3.webp'
+import website4 from './website4.webp'
+import website5 from './website5.webp'
+import website6 from './website6.webp'
+import website7 from './website7.webp'
 
 import { useContext } from "react"
 import NumberContext from "../../../../components/Contexts/NumberContext"

@@ -20,8 +20,8 @@ projectsSection.overviewDescription = "My favorite projects"
 // section1.seeAllDescription = "See more projects →"
 projectsSection.seeAllDescription = ""
 
-const professionalSection = new Section("Professional Experience", "professional", "", ["spacex", "cmsc", "pw", "bidc"], ["spacex", "cmsc", "pw",  "bidc"])
-professionalSection.urlsInOverview = ["spacex", "cmsc"]
+const professionalSection = new Section("Professional Experience", "professional", "", ["relativity","zipline","spacex", "cmsc", "pw", "bidc"], ["relativity","zipline","spacex", "cmsc", "pw",  "bidc"])
+professionalSection.urlsInOverview = ["relativity","zipline","spacex", "pw","cmsc", "bidc"]
 // professionalSection.overviewDescription = "Where I've worked"
 professionalSection.overviewDescription = "My latest professional experiences"
 // section2.seeAllDescription = "See all jobs →"

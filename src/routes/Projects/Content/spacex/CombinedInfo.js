@@ -1,10 +1,10 @@
 import ImageWithCaption from "../../../../components/Image/ImageWithCaption"
 import P from "../../../../components/Text/P"
 
-import spacex1 from './spacex1.jpg'
-import spacex2 from './spacex2.jpg'
-import spacex3 from './spacex3.jpg'
-import spacex4 from './spacex4.jpg'
+import spacex1 from './spacex1.webp'
+import spacex2 from './spacex2.webp'
+import spacex3 from './spacex3.webp'
+import spacex4 from './spacex4.webp'
 
 import HR from "../../../../components/HR/HR"
 
@@ -17,6 +17,7 @@ import H1 from "../../../../components/Text/H1"
 import H3 from "../../../../components/Text/H3"
 import H4 from "../../../../components/Text/H4"
 import H5 from "../../../../components/Text/H5"
+import Resume from "../../../Resume/Resume"
 
 const title = "SpaceX"
 export const Thumbnail = (props) => {
@@ -64,6 +65,7 @@ export const Content = () => {
                     <P>Procured $2k FDM printer + accessories for drastic 5S upgrades. Created documentation, training, & practical demo parts</P>
                 </li>
             </ul>
+            <Resume></Resume>
         </div>
     )
 }

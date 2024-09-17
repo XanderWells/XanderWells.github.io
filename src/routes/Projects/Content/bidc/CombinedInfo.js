@@ -1,7 +1,7 @@
 import ImageWithCaption from "../../../../components/Image/ImageWithCaption"
 import P from "../../../../components/Text/P"
 
-import bidc1 from './bidc1.jpg'
+import bidc1 from './bidc1.webp'
 
 import { useContext } from "react"
 import NumberContext from "../../../../components/Contexts/NumberContext"

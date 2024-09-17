@@ -1,16 +1,16 @@
 import ImageWithCaption from "../../../../components/Image/ImageWithCaption"
 import P from "../../../../components/Text/P"
 
-import andres1 from './andres1.jpg'
-import andres2 from './andres2.jpg'
-import andres3 from './andres3.jpg'
-import andres4 from './andres4.jpg'
-import andres5 from './andres5.jpg'
-import andres6 from './andres6.jpg'
-import andres7 from './andres7.jpg'
-import andres8 from './andres8.jpg'
-import andres9 from './andres9.jpg'
-import andres11 from './andres11.jpg'
+import andres1 from './andres1.webp'
+import andres2 from './andres2.webp'
+import andres3 from './andres3.webp'
+import andres4 from './andres4.webp'
+import andres5 from './andres5.webp'
+import andres6 from './andres6.webp'
+import andres7 from './andres7.webp'
+import andres8 from './andres8.webp'
+import andres9 from './andres9.webp'
+import andres11 from './andres11.webp'
 
 import { useContext } from "react"
 import NumberContext from "../../../../components/Contexts/NumberContext"

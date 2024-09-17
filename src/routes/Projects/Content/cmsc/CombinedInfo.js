@@ -1,22 +1,22 @@
 import ImageWithCaption from "../../../../components/Image/ImageWithCaption"
 import P from "../../../../components/Text/P"
 
-import cmsc1 from './cmsc1.jpg'
-import cmsc2 from './cmsc2.jpg'
-import cmsc3 from './cmsc3.jpg'
-import cmsc4 from './cmsc4.jpg'
-import cmsc5 from './cmsc5.jpg'
-import cmsc6 from './cmsc6.jpg'
-import cmsc8 from './cmsc8.jpg'
-import cmsc9 from './cmsc9.jpg'
-import cmsc10 from './cmsc10.jpg'
-import cmsc11 from './cmsc11.jpg'
-import cmsc12 from './cmsc12.jpg'
-import cmsc13 from './cmsc13.jpg'
-import cmsc14 from './cmsc14.jpg'
-import cmsc15 from './cmsc15.jpg'
-import cmsc16 from './cmsc16.jpg'
-import cmsc17 from './cmsc17.jpg'
+import cmsc1 from './cmsc1.webp'
+import cmsc2 from './cmsc2.webp'
+import cmsc3 from './cmsc3.webp'
+import cmsc4 from './cmsc4.webp'
+import cmsc5 from './cmsc5.webp'
+import cmsc6 from './cmsc6.webp'
+import cmsc8 from './cmsc8.webp'
+import cmsc9 from './cmsc9.webp'
+import cmsc10 from './cmsc10.webp'
+import cmsc11 from './cmsc11.webp'
+import cmsc12 from './cmsc12.webp'
+import cmsc13 from './cmsc13.webp'
+import cmsc14 from './cmsc14.webp'
+import cmsc15 from './cmsc15.webp'
+import cmsc16 from './cmsc16.webp'
+import cmsc17 from './cmsc17.webp'
 import HR from "../../../../components/HR/HR"
 
 import { useContext } from "react"
@@ -30,7 +30,7 @@ import H5 from "../../../../components/Text/H5"
 
 const title = "CMSC"
 export const Thumbnail = (props) => {
-    const description = "Purdue Composites Manufacturing and Simulation Center Research Intern - Jan 2022 to Present"
+    const description = "Purdue Composites Manufacturing and Simulation Center Research Intern - Jan 2023 to Present"
  
     return (
         <ThumbnailTemplate title={title} description={description} image={cmsc1} link={props.link}/>

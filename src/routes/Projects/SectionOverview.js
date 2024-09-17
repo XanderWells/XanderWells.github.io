@@ -14,7 +14,7 @@ const SectionOverview = (props) => {
         return (React.lazy(() => {
             return Promise.all([
                 import(`./Content/${listingName}/Thumbnail`),
-                new Promise(resolve => setTimeout(resolve, 500))
+                new Promise(resolve => setTimeout(resolve, 50))
             ])
                 .then(([moduleExports]) => moduleExports);
         })

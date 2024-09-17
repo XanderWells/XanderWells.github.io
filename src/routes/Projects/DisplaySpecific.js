@@ -13,7 +13,7 @@ const DisplaySpecific = () => {
     const Content = React.lazy(() => {
         return Promise.all([
             import(`./Content/${projectName}/Content`),
-            new Promise(resolve => setTimeout(resolve, 500))
+            new Promise(resolve => setTimeout(resolve, 250))
         ])
             .then(([moduleExports]) => moduleExports);
     });

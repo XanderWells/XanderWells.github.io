@@ -1,4 +1,4 @@
-import pdf from "./Fall '23 Xander Wells Resume.pdf"
+import pdf from "./Fall '24 Xander Wells Resume Full Time.pdf"
 
 const Resume = () => {
     return (

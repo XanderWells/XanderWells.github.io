@@ -1,11 +1,11 @@
 import ImageWithCaption from "../../../../components/Image/ImageWithCaption"
 import P from "../../../../components/Text/P"
 
-import endmill1 from './endmill1.jpg'
-import endmill2 from './endmill2.jpg'
-import endmill3 from './endmill3.jpg'
-import endmill4 from './endmill4.jpg'
-import endmill5 from './endmill5.jpg'
+import endmill1 from './endmill1.webp'
+import endmill2 from './endmill2.webp'
+import endmill3 from './endmill3.webp'
+import endmill4 from './endmill4.webp'
+import endmill5 from './endmill5.webp'
 
 import { useContext } from "react"
 import NumberContext from "../../../../components/Contexts/NumberContext"

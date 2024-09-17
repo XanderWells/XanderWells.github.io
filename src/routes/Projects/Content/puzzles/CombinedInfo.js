@@ -1,15 +1,15 @@
 import ImageWithCaption from "../../../../components/Image/ImageWithCaption"
 import P from "../../../../components/Text/P"
 
-import puzzle1 from './puzzle1.jpg'
-import puzzle2 from './puzzle2.jpg'
-import puzzle3 from './puzzle3.jpg'
-import puzzle4 from './puzzle4.jpg'
-import puzzle5 from './puzzle5.jpg'
-import puzzle6 from './puzzle6.jpg'
-import puzzle7 from './puzzle7.jpg'
-import puzzle8 from './puzzle8.jpg'
-import allwhite from './allwhite.jpg'
+import puzzle1 from './puzzle1.webp'
+import puzzle2 from './puzzle2.webp'
+import puzzle3 from './puzzle3.webp'
+import puzzle4 from './puzzle4.webp'
+import puzzle5 from './puzzle5.webp'
+import puzzle6 from './puzzle6.webp'
+import puzzle7 from './puzzle7.webp'
+import puzzle8 from './puzzle8.webp'
+import allwhite from './allwhite.webp'
 
 import { useContext } from "react"
 import NumberContext from "../../../../components/Contexts/NumberContext"
